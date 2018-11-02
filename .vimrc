@@ -57,6 +57,8 @@ au BufNewFile,BufRead *.js, *.html, *.css
 " Flagging Unnecessary Whitespace
 "au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
+Plugin 'nvie/vim-flake8'
+Plugin 'vim-syntastic/syntastic'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe'
