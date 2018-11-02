@@ -57,8 +57,26 @@ au BufNewFile,BufRead *.js, *.html, *.css
 " Flagging Unnecessary Whitespace
 "au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
-Plugin 'nvie/vim-flake8'
+let python_highlight_all=1
+syntax on
+
+" hide *.pyc files
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+" line numbering
+set nu
+
+" system clipboard
+set clipboard=unnamed
+
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'tpope/vim-fugitive'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jnurmine/Zenburn'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'nvie/vim-flake8'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe'
+
