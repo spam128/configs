@@ -1,5 +1,7 @@
 " First vim config based on https://realpython.com/vim-and-python-a-match-made-in-heaven/
 " git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim 
+" https://www.fullstackpython.com/vim.html
+
 set encoding=utf-8
 
 set nocompatible              " required
