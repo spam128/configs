@@ -1,0 +1,9 @@
+# CHIA
+alias chia_env="cd ~/workspace/chia-blockchain;. ./activate"
+alias chia_log="cat ~/workspace/chia-blockchain/chia.log"
+alias chia_error="cat ~/workspace/chia-blockchain/error.log"
+alias pi_temp="vcgencmd measure_temp"
+alias pi_temp_persistent="while true; do clear; pi_temp;sleep 10;done"
+alias ls_fast="ls /home/pi/tmp/sda2"
+alias ls_slow="ls /home/pi/tmp/sdb1"
+alias chia_status="while true; do clear;chia_log; lsblk;pi_temp;sleep 60; done"
